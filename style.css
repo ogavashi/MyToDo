@@ -1,0 +1,49 @@
+body {
+  background-color: #2a2929;
+  font-family: "Open Sans Condensed", sans-serif;
+}
+h1 {
+  font-size: 40px;
+}
+
+#content {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  color: white;
+}
+
+#mainFrame {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  margin: auto;
+  background-color: #3f3f3f;
+  width: 500px;
+  height: 500px;
+  border: 2px solid white;
+  border-radius: 10%;
+}
+
+.todo-text {
+  color: white;
+  font-size: 15px;
+}
+
+.todo-element {
+  display: flex;
+}
+
+.todo-delete {
+  padding-left: 10px;
+}
+
+.todo-finished {
+  text-decoration: line-through;
+}
+
+.todo-important {
+  color: red;
+}
